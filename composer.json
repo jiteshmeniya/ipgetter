@@ -1,0 +1,20 @@
+{
+    "name": "jiteshmeniya/ipgetter",
+    "description": "Get IP address of the user",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiteshmeniya99",
+            "email": "jiteshmeniya99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "IPGetter\\": "src/getip"
+        }
+    }
+}
